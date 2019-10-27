@@ -1,0 +1,5 @@
+tracer.property: "Default Profile"
+USER_URI: "http://localhost:8081/user/"
+RATING_POST_URI: "http://localhost:8082/rating/";
+RATING_USER_URI: "http://localhost:8082/rating/user/";
+MOVIE_URI: "http://localhost:8083/movie/";"
