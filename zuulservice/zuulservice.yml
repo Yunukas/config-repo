@@ -5,3 +5,9 @@ zuul.routes.movieservice: /movie/**
 zuul.routes.ratingservice: /rating/**
 zuul.routes.userservice: /user/**
 zuul.routes.appservice: /app/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, routes
