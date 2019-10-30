@@ -1,0 +1,7 @@
+tracer.property: "Default Profile"
+zuul.ignored-services: '*'
+zuul.prefix : /api
+zuul.routes.movieservice: /movie/**
+zuul.routes.ratingservice: /rating/**
+zuul.routes.userservice: /user/**
+zuul.routes.appservice: /**
