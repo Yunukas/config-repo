@@ -6,6 +6,14 @@ zuul.routes.ratingservice: /rating/**
 zuul.routes.userservice: /user/**
 zuul.routes.appservice: /**
 
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 2500
+
 management:
   endpoints:
     web:
