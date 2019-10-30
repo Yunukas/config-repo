@@ -4,4 +4,4 @@ zuul.prefix : /api
 zuul.routes.movieservice: /movie/**
 zuul.routes.ratingservice: /rating/**
 zuul.routes.userservice: /user/**
-zuul.routes.appservice: /**
+zuul.routes.appservice: /app/**
